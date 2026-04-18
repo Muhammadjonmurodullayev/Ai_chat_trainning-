@@ -105,7 +105,7 @@ def train(config_path: str, resume: str | None = None):
     if not tok_path.exists():
         raise FileNotFoundError(
             f"Tokenizer not found: {tok_path}\n"
-            f"Run: python chat/tokenizer_train.py --vocab_size 16000"
+            f"Run: python chat/tokenizer_train.py"
         )
     sp = spm.SentencePieceProcessor()
     sp.Load(str(tok_path))
