@@ -32,7 +32,7 @@ SPECIAL_TOKENS = [
 
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument("--vocab_size", type=int, default=2000,
+    p.add_argument("--vocab_size", type=int, default=4000,
                    help="Target vocab size; auto-shrinks if corpus too small")
     p.add_argument("--character_coverage", type=float, default=0.9999)
     p.add_argument("--model_type", choices=["unigram", "bpe"], default="unigram")
