@@ -14,10 +14,10 @@ data/*.jsonl
 data/*.txt
 data/*.model
 data/*.vocab
-checkpoints/*.pt
-checkpoints/*.bin
-checkpoints/*.model
-checkpoints/*.vocab
+checkpoints/**/*.pt
+checkpoints/**/*.bin
+checkpoints/**/*.model
+checkpoints/**/*.vocab
 logs/*.json
 logs/*.log
 runs/
