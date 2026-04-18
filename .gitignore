@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Data & checkpoints (large files)
+data/*.jsonl
+data/*.txt
+data/*.model
+data/*.vocab
+checkpoints/*.pt
+checkpoints/*.bin
+checkpoints/*.model
+checkpoints/*.vocab
+logs/*.json
+logs/*.log
+runs/
+
+# Keep folder placeholders
+!data/.gitkeep
+!checkpoints/.gitkeep
+
+# Colab / Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# OS
+Thumbs.db
